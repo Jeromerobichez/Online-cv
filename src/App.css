@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #302797;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(128, 3, 3);
 }
 
 .App-link {
@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+h1 {
+  -webkit-text-stroke: 1.5px black; /* width and color */
+
+  font-family: sans; color: rgb(128, 3, 3);
+}
+h2 {
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.cv-card-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+  .cv-card {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    max-width: 420px;
+
+  }
+    .institut-date {
+      text-align: left;
+    }
+    .cv-card-h3 {
+      margin-left: 20px;
+      font-size: 20px;
+      align-self: left;
+    }
+.cv-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+  max-width: 1200px;
+  border: 2px black solid;
+  border-radius: 20px;
+  margin: 20px ;
+  font-size: 14px;
+}
+  .cv-col-1 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  }
+  .photo-id {
+    border: 1px black solid;
+  }
+  .mini-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .square-1 {
+    height: 16px;
+    width: 16px;
+    margin: 0 2px;
+    background: #2e75b5;
+  }
+  .square-2 {
+    height:16px;
+    width: 16px;
+    background: #92ccff;
+  }
+  .cv-col-2 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  flex-direction: column;
+  }
+  .cv-h1 {
+    color: #2e75b5;
+}
+  .cv-category {
+    background: #2e75b5;
+    color: white;
+  }
