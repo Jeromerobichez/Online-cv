@@ -1,9 +1,10 @@
 import react from 'react'
 import './App.css';
 import CvCard from './CvCard';
-import { CvData, PresentationData } from './data.js'
+import { CvData, PresentationData, cvJerome } from './data.js'
 
 const CvFile = ({ data }) => {
+    console.log(cvJerome)
     return (
         <>
             <div className="cv-page">

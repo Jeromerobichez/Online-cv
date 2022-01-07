@@ -1,3 +1,21 @@
+class CvSchema {
+    constructor(form, xp, tech) {
+        this.formation = form;
+        this.experience = xp;
+        this. technologies = tech;
+
+    }
+}
+class cvFormation {
+    constructor(date, inst, title) {
+        this.date= date;
+        this.institut= inst;
+        this.titre= title;
+    }
+}
+const formationJ = new cvFormation("2007-2010", "Faco Paris", "licence de droit")
+const cvJerome = new CvSchema(formationJ, "charles.co", "ReactJS, Node.JS")
+
 const CvData = {
     formation: [
         {
@@ -73,4 +91,4 @@ message: 'À la recherche d\'un poste d\estéticien'}
     ]
 
 }
- export {CvData, PresentationData} ;
+ export {CvData, PresentationData, cvJerome} ;
